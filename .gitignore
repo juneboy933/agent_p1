@@ -1,0 +1,22 @@
+# Local dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Generated agent logs
+agent.ollama.log.json1
+agent.ollam.log.json1
+agent.log.json1
+
+# TypeScript and tooling output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Editor and OS files
+.DS_Store
+.vscode/
